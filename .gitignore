@@ -1,0 +1,27 @@
+# Ignore virtual environment
+venv/
+env/
+
+# Ignore Python bytecode
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Ignore SQLite database files
+*.db
+*.sqlite
+
+# Ignore log files
+*.log
+
+# Ignore IDE specific files
+.idea/
+.vscode/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore system files (Mac and Windows)
+.DS_Store
+Thumbs.db
